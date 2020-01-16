@@ -1,4 +1,11 @@
 <?php
-$msg = "Paradam, Hello!";
+$msg = "Paradam, Hello!" . ':';
+$count = 0;
 
-echo"<h1>{$msg}</h1>";
+function countMsg($msg, &$count){
+    return $msg . ++$count;
+}
+echo"<h1>". countMsg($msg,$count)." </h1>";
+echo"<h1>". countMsg($msg,$count)." </h1>";
+echo"<h1>". countMsg($msg,$count)." </h1>";
+
