@@ -1,3 +1,4 @@
 <?php
+$msg = "Paradam, Hello!";
 
-phpinfo();
+echo"<h1>{$msg}</h1>";
