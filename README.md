@@ -1,2 +1,0 @@
-# microservices
-DevOps test project
