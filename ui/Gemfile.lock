@@ -19,9 +19,11 @@ GEM
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     netrc (0.11.0)
+dependabot/bundler/ui/rack-2.1.1
     puma (3.12.2)
     rack (2.1.1)
     rack-protection (2.0.8.1)
+master
       rack
     rest-client (2.0.2)
       http-cookie (>= 1.0.2, < 2.0)
